@@ -1,26 +1,31 @@
-# Developer Portfolio Template 🚀
+# Tim McLennan - Sales Engineering Portfolio 🚀
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-## What is this?
+## About This Portfolio
 
-This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
+This portfolio showcases my experience, skills, and achievements as a Sales Engineer. It highlights my technical expertise, customer success stories, and professional journey in the tech industry.
 
-View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
-
-**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
-
-![screenshot](./src/assets//images/screenshot.png)
+View the [Live Portfolio](https://Tim-Mclennan.github.io/salesengineerportfolio).
 
 ## Features
 
-✅ Open source (free to use, no attribution required)  
 ✅ Responsive design & mobile-friendly  
-✅ Supports both dark and light modes  
-✅ Highly customizable multi-component layout  
-✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
+✅ Modern UI with Material-UI components  
+✅ Interactive timeline of professional experience  
+✅ Skills showcase with visual representations  
+✅ Project demonstrations and case studies  
+✅ Contact information and social links  
 
-## Quick Setup
+## Technical Stack
+
+- React.js with TypeScript
+- Material-UI for modern UI components
+- SASS for styling
+- React Vertical Timeline Component
+- Font Awesome icons
+
+## Local Development
 
 1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
 
@@ -28,9 +33,11 @@ View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
     node -v
     ```
 
-2. In the project directory, install dependencies:
+2. Clone this repository and install dependencies:
 
     ```bash
+    git clone https://github.com/Tim-Mclennan/salesengineerportfolio.git
+    cd salesengineerportfolio
     npm install
     ```
 
@@ -42,45 +49,24 @@ View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
 
 4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
-5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
-
-The page will reload if you make edits, and you will see any lint errors in the console.
-
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
-
 ## Deployment
 
-You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
+This portfolio is deployed using GitHub Pages. The deployment is automated through the following process:
 
-1. **Set Up GitHub Repository**
+1. The `homepage` in `package.json` is set to:
+   ```json
+   "homepage": "https://Tim-Mclennan.github.io/salesengineerportfolio"
+   ```
 
-    Create a new repository on GitHub for your portfolio app.
+2. To deploy updates:
+   ```bash
+   npm run deploy
+   ```
 
-2. **Configure `package.json`**
+## Contact
 
-    Edit the following properties in your `package.json` file:
+Feel free to reach out through the contact form on the portfolio or connect with me on LinkedIn.
 
-    ```json
-    {
-        "homepage": "https://yourusername.github.io/your-repo-name",
-        "scripts": {
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build",
-            ...
-        }
-    }
-    ```
+---
 
-    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
-
-3. **Deploy to GitHub Pages**
-
-    Run the following command to deploy your app:
-
-    ```bash
-    npm run deploy
-    ```
-
-4. **Access Your Deployed App**
-
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+Built with ❤️ using React and TypeScript
