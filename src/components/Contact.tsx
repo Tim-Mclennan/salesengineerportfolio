@@ -4,6 +4,7 @@ import '../assets/styles/Contact.scss';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
+import EmailIcon from '@mui/icons-material/Email';
 import TextField from '@mui/material/TextField';
 
 function Contact() {
@@ -53,7 +54,12 @@ function Contact() {
     <div id="contact">
       <div className="items-container">
         <div className="contact_wrapper">
-          <h1>Contact Me</h1>
+          <div className="contact-header">
+            <h1>Contact Me</h1>
+            <a href="mailto:your.email@example.com" target="_blank" rel="noreferrer" className="email-icon">
+              <EmailIcon />
+            </a>
+          </div>
           <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
           <Box
             ref={form}
