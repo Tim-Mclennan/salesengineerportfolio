@@ -10,6 +10,7 @@ function Footer() {
         <a href="https://github.com/Tim-Mclennan" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/tim-mclennan-0563341aa/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
+      <p>Australia based</p>
     </footer>
   );
 }
