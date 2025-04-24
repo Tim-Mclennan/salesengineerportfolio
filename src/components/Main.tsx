@@ -17,15 +17,15 @@ function Main() {
           <div className="social_icons">
             <a href="https://github.com/Tim-Mclennan" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/tim-mclennan-0563341aa/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-            <a href="mailto:your.email@example.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
+            <a href="mailto:timmymclennan@gmail.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
           </div>
           <h1>Tim McLennan</h1>
           <p>Sales Engineer</p>
 
           <div className="mobile_social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-            <a href="mailto:your.email@example.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
+            <a href="https://github.com/Tim-Mclennan" target="_blank" rel="noreferrer"><GitHubIcon/></a>
+            <a href="https://www.linkedin.com/in/tim-mclennan-0563341aa/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="mailto:timmymclennan@gmail.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
           </div>
         </div>
       </div>
