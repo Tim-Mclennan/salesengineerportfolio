@@ -14,6 +14,13 @@
 .projects-container .projects-grid .project {
     text-align: left;
 }
+
+.projects-container .projects-grid .project img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
   
 .project h2:hover {
     text-decoration: underline;

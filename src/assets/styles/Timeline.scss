@@ -36,3 +36,21 @@
         color: rgb(39, 40, 34);
     }
 }
+
+.bullet-point {
+  position: relative;
+  margin: 8px 0;
+  line-height: 1.5;
+  padding-left: 15px;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    background-color: #5000ca;
+    border-radius: 50%;
+  }
+}

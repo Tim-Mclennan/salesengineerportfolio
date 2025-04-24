@@ -22,9 +22,9 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Senior Sales Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Atlassian</h4>
-            <p>Conducted technical discoveries for an average of 15+ enterprise accounts per quarter, resulting in a 20% increase in accurately scoped solutions.</p>
-            <p>Achieved an average 86% POC-to-close conversion rate for conducting thorough pre-sales presentations and demonstrations, delivering 30+ a month. </p>
-            <p>Mapped and articulated Atlassian’s capabilities to each client’s specific challenges, gaining a 4.8/5 star client satisfaction rating.</p>
+            <p className="bullet-point">Conducted technical discoveries for an average of 15+ enterprise accounts per quarter, resulting in a 20% increase in accurately scoped solutions.</p>
+            <p className="bullet-point">Achieved an average 86% POC-to-close conversion rate for conducting thorough pre-sales presentations and demonstrations, delivering 30+ a month.</p>
+            <p className="bullet-point">Mapped and articulated Atlassian's capabilities to each client's specific challenges, gaining a 4.8/5 star client satisfaction rating.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -34,9 +34,9 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Solutions Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Zoho CRM</h4>
-            <p>Architected and oversaw the implementation of custom solutions for over 50 small and medium-sized businesses.</p>
-            <p>Contributed to a 12% growth in Zoho CRM adoption within assigned territory through proactive engagement in technical discussions and translating complex requirements into actionable plans.</p>
-            <p>Trained over 20 Account Executives on Zoho's technical capabilities, leading to a more technically proficient sales force and improved customer engagement.</p>
+            <p className="bullet-point">Architected and oversaw the implementation of custom solutions for over 50 small and medium-sized businesses.</p>
+            <p className="bullet-point">Contributed to a 12% growth in Zoho CRM adoption within assigned territory through proactive engagement in technical discussions and translating complex requirements into actionable plans.</p>
+            <p className="bullet-point">Trained over 20 Account Executives on Zoho's technical capabilities, leading to a more technically proficient sales force and improved customer engagement.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -46,9 +46,9 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Software Consultant</h3>
             <h4 className="vertical-timeline-element-subtitle">Commonwealth Bank</h4>
-            <p>Designed & developed a custom analytics dashboard for home owners, enabling real-time user behaviour insights that drove a 21% increase in feature adoption.</p>
-            <p>Contributed to cross-functional project teams, ensuring timely delivery of features that elevated customer satisfaction and engagement.</p>
-            <p>Wrote clean and maintainable code, following best practices and coding standards for a high-scale web environment.</p>
+            <p className="bullet-point">Designed & developed a custom analytics dashboard for home owners, enabling real-time user behaviour insights that drove a 10% increase in feature adoption.</p>
+            <p className="bullet-point">Contributed to cross-functional project teams, ensuring timely delivery of features that elevated customer satisfaction and engagement.</p>
+            <p className="bullet-point">Wrote clean and maintainable code, following best practices and coding standards for a high-scale web environment.</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
