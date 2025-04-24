@@ -1,14 +1,8 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
 import admindashScreenshot from '../assets/images/Admindash-demoScreenshot.png';
+import econochartDemo from '../assets/images/econochart-demo.png';
+import timTubeThumbnail from '../assets/images/TimTubeThumbnail.jpg';
+import earthDemo from '../assets/images/earthdemo.jpg';
 
 import '../assets/styles/Project.scss';
 
@@ -18,34 +12,24 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={admindashScreenshot} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>AdminDash</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://admin-dash-sb2t.vercel.app/" target="_blank" rel="noreferrer"><img src={admindashScreenshot} className="zoom" alt="AdminDash thumbnail" width="100%"/></a>
+                <a href="https://admin-dash-sb2t.vercel.app/" target="_blank" rel="noreferrer"><h2>AdminDash</h2></a>
+                <p>AdminDash is a comprehensive admin panel and dashboard application built with the Refine framework. It includes comprehensive CRM-like data and a smooth UI interface.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://econo-chart.vercel.app/" target="_blank" rel="noreferrer"><img src={econochartDemo} className="zoom" alt="EconoChart thumbnail" width="100%"/></a>
+                <a href="https://econo-chart.vercel.app/" target="_blank" rel="noreferrer"><h2>EconoChart</h2></a>
+                <p>EconoChart is a full-stack web application that provides a visual representation of key performance indicators (KPIs), products, and transactions data. It's a great tool for visualizing and using machine learning to predict business performance.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://startling-liger-581815.netlify.app/" target="_blank" rel="noreferrer"><img src={timTubeThumbnail} className="zoom" alt="TimTube thumbnail" width="100%"/></a>
+                <a href="https://startling-liger-581815.netlify.app/" target="_blank" rel="noreferrer"><h2>TimTube</h2></a>
+                <p>YouTube clone built with HTML, CSS, SASS/SCSS and React. Fetched API data from YouTube using Axios to display video feeds, including default categories.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
-            </div>
-            <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <a href="https://earth-in-three-js.vercel.app/" target="_blank" rel="noreferrer"><img src={earthDemo} className="zoom" alt="Earth in ThreeJS thumbnail" width="100%"/></a>
+                <a href="https://earth-in-three-js.vercel.app/" target="_blank" rel="noreferrer"><h2>Earth in ThreeJS</h2></a>
+                <p>This project is an immersive 3D visualization of Earth, built using the Three.js library. It was a fun project in which I got to test out some of my skills in ThreeJS.</p>
             </div>
         </div>
     </div>
