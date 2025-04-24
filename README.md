@@ -8,6 +8,8 @@ This portfolio showcases my experience, skills, and achievements as a Sales Engi
 
 View the [Live Portfolio](https://Tim-Mclennan.github.io/salesengineerportfolio).
 
+![Portfolio Screenshot](./src/assets/images/demoscreenshot.jpg)
+
 ## Features
 
 ✅ Responsive design & mobile-friendly  
