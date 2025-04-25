@@ -10,13 +10,13 @@ const labelsFirst = [
     "Programming",
     "APIs",
     "SaaS",
-    "Cloud Platforms",
-    "System Architecture",
+    "Cloud Platforms (GCP/AWS)",
     "Networking",
     "Cybersecurity",
     "POCs",
-    "Databases",
-    "Web Dev"
+    "MCP",
+    "Azure",
+    "System Architecture",
 ];
 
 const labelsSecond = [
@@ -63,7 +63,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faUserTie} size="3x"/>
                     <h3>Sales & Account Management</h3>
-                    <p  style={{ fontSize: '0.9rem' }}>I also demonstrate a strong aptitude for sales, in which I have a proven ability to articulate technical and commercial value across the entire sales cycle with a streamlined strategy. This strategy includes conducting impactful and compelling technical presentations, architecture design discussions, competitive displacement, proof-of-concept (POC) engagements, leading RFP/RFI responses, solution demonstrations and technical workshops. This effective sales approach is reflected with an 86% POC-to-close conversion rate average at Atlassian - highlighting my commitment to building enduring relationships with my clients.</p>
+                    <p  style={{ fontSize: '0.9rem' }}>I also demonstrate a strong aptitude for sales, in which I have a proven ability to articulate technical and commercial value across the entire sales cycle with a streamlined strategy. This strategy includes conducting impactful and compelling technical presentations, architecture design discussions, competitive displacement, proof-of-concept (POC) engagements, leading RFP/RFI responses, solution demonstrations and technical workshops. Spearheaded technical sales engagements for Atlassian's suite of enterprise collaboration and workflow solutions, consistently exceeding quarterly sales targets by an average of 15%. Led and delivered over 30 successful proof-of-concept (POC) demonstrations, effectively showcasing the value and capabilities of Atlassian products and accelerating client adoption. Collaborated with sales teams to understand complex client requirements and architect solutions that address their specific pain points, resulting in a 86% POC-to-close conversion rate for technically supported opportunities. Built strong relationships with key technical stakeholders within client organisations, serving as a trusted advisor and technical expert throughout the sales cycle.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Skills:</span>
                         {labelsSecond.map((label, index) => (
@@ -75,7 +75,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faVideo} size="3x"/>
                     <h3>Communication & Problem Solving</h3>
-                    <p  style={{ fontSize: '0.9rem' }}>Effective communication and problem-solving are fundamental to my success as a Sales Engineer. I consistently achieve high client satisfaction ratings with an average of 4.8/5 for my presentations and demos - a testament to my ability to tailor solutions that precisely address client needs. I am proactive in identifying and resolving potential issues, resulting in a 8% reduction in post-sale implementation tickets at Atlassian. I approach challenges with a creative problem-solving mindset and a strong inclination towards systems thinking. I enjoy dissecting complex issues and developing clear, effective solutions.</p>
+                    <p  style={{ fontSize: '0.9rem' }}>Effective communication and problem-solving are fundamental to my success as a Sales Engineer. I consistently achieve high client satisfaction ratings with an average of 4.8/5 for my presentations and demos - a testament to my ability of precisely addressing client needs. I am proactive in identifying and resolving potential issues, resulting in a 8% reduction in post-sale implementation tickets at Atlassian. I approach challenges with a creative problem-solving mindset and a strong inclination towards systems thinking. I enjoy dissecting complex issues and developing clear, effective solutions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Skills:</span>
                         {labelsThird.map((label, index) => (

@@ -14,7 +14,7 @@ function Project() {
             <div className="project">
                 <a href="https://admin-dash-sb2t.vercel.app/" target="_blank" rel="noreferrer"><img src={admindashScreenshot} className="zoom" alt="AdminDash thumbnail" width="100%"/></a>
                 <a href="https://admin-dash-sb2t.vercel.app/" target="_blank" rel="noreferrer"><h2>AdminDash</h2></a>
-                <p>AdminDash is a comprehensive admin panel and dashboard application built with the Refine framework. It includes comprehensive CRM-like data and a smooth UI interface.</p>
+                <p>AdminDash is a comprehensive admin panel and dashboard application built with the Refine framework. It incorporates, analyses and displays CRM-like data and a smooth UI interface.</p>
             </div>
             <div className="project">
                 <a href="https://econo-chart.vercel.app/" target="_blank" rel="noreferrer"><img src={econochartDemo} className="zoom" alt="EconoChart thumbnail" width="100%"/></a>
