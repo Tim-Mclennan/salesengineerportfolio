@@ -51,7 +51,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faCode} size="3x"/>
                     <h3>Technical Acumen</h3>
-                    <p  style={{ fontSize: '0.9rem' }}>With a background in software engineering, I am confident in my ability to lead the technical aspect in large and complex sales processes. I have extensive experience working with APIs, SaaS, AI/ML concepts, networking, security, system architecture etc. which allow me to confidently address technical inquiries and tailor solutions to unique client environments. For instance, during a recent engagement with a large e-commerce client, I architected a custom data pipeline leveraging our platform's API, achieving a ~30% reduction in their data processing time with 0% data loss.</p>
+                    <p  style={{ fontSize: '0.9rem' }}>With a degree in computer science and a background in software engineering, I am confident in my ability to lead the technical aspect in large and complex sales processes. I have extensive experience working with APIs, SaaS, AI/ML concepts, networking, security, system architecture etc. which allows me to confidently address technical inquiries and tailor solutions to unique client environments. For instance, during a recent engagement with a large e-commerce client, I architected a custom data pipeline leveraging our platform's API, achieving a ~30% reduction in their data processing time with 0% data loss.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Skills:</span>
                         {labelsFirst.map((label, index) => (
