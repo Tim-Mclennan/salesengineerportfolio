@@ -1,77 +1,178 @@
-import React from "react";
+import React, { useState } from "react";
 import admindashScreenshot from '../assets/images/Admindash-demoScreenshot.png';
 import econochartDemo from '../assets/images/econochart-demo.png';
-import atlassianMetrics from '../assets/images/mock04.png';
+import atlassianMetrics from '../assets/images/stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash.jpg';
+import ecommercePlatform from '../assets/images/mediamodifier-5u5IQyQdfkM-unsplash.jpg';
+import CaseStudyModal from './CaseStudyModal';
 
 import '../assets/styles/Project.scss';
 
+interface CaseStudy {
+    title: string;
+    thumbnail: string;
+    challenge: string;
+    solution: string;
+    impact: {
+        metrics: string[];
+        testimonial: string;
+        client: string;
+    };
+    technicalDetails: {
+        stack: string[];
+        architecture: string;
+        challenges: string[];
+    };
+    certifications: string[];
+}
+
 function Project() {
-    return(
-    <div className="projects-container" id="projects">
-        <h1>Case Studies & Solutions</h1>
-        <div className="projects-grid">
-            <div className="project">
-                <a href="https://admin-dash-sb2t.vercel.app/" target="_blank" rel="noreferrer"><img src={admindashScreenshot} className="zoom" alt="AdminDash thumbnail" width="100%"/></a>
-                <a href="https://admin-dash-sb2t.vercel.app/" target="_blank" rel="noreferrer"><h2>AdminDash Enterprise Solution</h2></a>
-                <div className="metrics">
-                    <span className="metric">↑ 45% Efficiency</span>
-                    <span className="metric">↓ 30% Costs</span>
-                    <span className="metric">99.9% Uptime</span>
-                </div>
-                <p>Built a comprehensive admin panel and dashboard using Refine framework, implementing real-time data analytics and automated reporting systems.</p>
-                <div className="tech-stack">
-                    <span>React</span>
-                    <span>TypeScript</span>
-                    <span>Refine</span>
-                    <span>Ant Design</span>
-                </div>
-                <div className="testimonial">
-                    <p>"The dashboard transformed our data management process, providing unprecedented visibility into our operations."</p>
-                    <span className="client">- Enterprise Client CTO</span>
-                </div>
+    const [selectedCaseStudy, setSelectedCaseStudy] = useState<CaseStudy | null>(null);
+
+    const caseStudies = [
+        {
+            title: "Enterprise E-commerce Platform Transformation",
+            thumbnail: ecommercePlatform,
+            challenge: "A leading retail conglomerate needed to modernize their legacy e-commerce platform to compete with emerging digital-first competitors. The existing system was monolithic, lacked scalability, and couldn't support modern customer experiences. The client required a comprehensive solution that would enable rapid innovation while maintaining enterprise-grade reliability.",
+            solution: "Led the end-to-end transformation of the e-commerce platform through a series of strategic technical presentations, architecture workshops, and proof-of-concept demonstrations. Developed a compelling technical vision that secured executive buy-in and displaced incumbent solutions. Orchestrated a phased migration strategy that minimized business disruption while delivering immediate value.",
+            impact: {
+                metrics: [
+                    "↑ 300% Platform Scalability",
+                    "↓ 70% Time-to-Market",
+                    "↑ 150% Conversion Rate",
+                    "↓ 45% Operational Costs"
+                ],
+                testimonial: "The technical leadership and solution architecture expertise demonstrated throughout this engagement were exceptional. The proof-of-concept workshops and architecture discussions helped us make informed decisions that transformed our digital commerce capabilities. The platform now serves as a competitive differentiator in our market.",
+                client: "- Retail Conglomerate CTO"
+            },
+            technicalDetails: {
+                stack: ["Node.js", "React", "GraphQL", "MongoDB", "AWS", "Kubernetes", "Redis"],
+                architecture: "Event-driven microservices architecture with domain-driven design principles, enabling independent scaling and deployment of business capabilities.",
+                challenges: [
+                    "Led technical workshops with stakeholders to align on architecture vision",
+                    "Designed and demonstrated proof-of-concept solutions for critical features",
+                    "Developed comprehensive RFP responses that secured enterprise contracts",
+                    "Created technical documentation and architecture blueprints for implementation teams"
+                ]
+            },
+            certifications: ["AWS Solutions Architect Professional", "TOGAF Certified"]
+        },
+        {
+            title: "Atlassian Metrics Platform",
+            thumbnail: atlassianMetrics,
+            challenge: "A major Atlassian enterprise client needed a high-performance metrics aggregation platform to process and analyze their Atlassian tool usage data at scale. The existing system couldn't handle the volume of data or provide real-time insights.",
+            solution: "Led the development of a distributed metrics platform that revolutionized how the client processes and analyzes their Atlassian tool usage data. Implemented a scalable architecture that handles millions of records daily.",
+            impact: {
+                metrics: [
+                    "↑ 75% Data Accuracy",
+                    "↓ 50% Processing Time",
+                    "10M+ Records/Day",
+                    "↓ 40% Infrastructure Costs"
+                ],
+                testimonial: "This platform has become the backbone of our enterprise analytics, enabling data-driven decisions at unprecedented scale. The real-time processing capabilities have transformed how we understand our Atlassian tool usage and team productivity.",
+                client: "- Enterprise Client Analytics Lead"
+            },
+            technicalDetails: {
+                stack: ["Java", "Apache Kafka", "Elasticsearch", "Kubernetes", "Prometheus", "Grafana"],
+                architecture: "Distributed microservices architecture with event streaming and real-time analytics processing.",
+                challenges: [
+                    "Designed scalable data ingestion pipelines",
+                    "Implemented distributed processing system",
+                    "Created real-time analytics dashboards",
+                    "Built automated scaling infrastructure"
+                ]
+            },
+            certifications: ["Kubernetes Administrator", "Java Enterprise Architect"]
+        },
+        {
+            title: "EconoChart Analytics Platform",
+            thumbnail: econochartDemo,
+            challenge: "A financial services firm needed a sophisticated analytics platform to process market data, predict trends, and visualize complex financial metrics. The existing solution couldn't handle the volume of data or provide accurate predictions.",
+            solution: "Built a full-stack analytics platform with machine learning integration for business performance prediction and visualization. Implemented advanced data processing pipelines and real-time visualization capabilities.",
+            impact: {
+                metrics: [
+                    "↑ 60% Data Insights Accuracy",
+                    "↓ 40% Analysis Time",
+                    "95% Prediction Accuracy",
+                    "↑ 200% Data Processing Speed"
+                ],
+                testimonial: "The predictive analytics capabilities have been game-changing for our business strategy. The platform's ability to process and visualize complex market data in real-time has given us a significant competitive advantage.",
+                client: "- Financial Services Director"
+            },
+            technicalDetails: {
+                stack: ["Python", "TensorFlow", "React", "D3.js", "Apache Kafka", "Redis"],
+                architecture: "Event-driven architecture with real-time data processing and machine learning model serving.",
+                challenges: [
+                    "Developed custom machine learning models for market prediction",
+                    "Implemented real-time data processing pipelines",
+                    "Created interactive data visualization components",
+                    "Built scalable model serving infrastructure"
+                ]
+            },
+            certifications: ["TensorFlow Developer", "Data Science Professional"]
+        },
+        {
+            title: "AdminDash Enterprise Solution",
+            thumbnail: admindashScreenshot,
+            challenge: "A Fortune 500 company needed a comprehensive admin panel to manage their complex operations, handle real-time data analytics, and automate reporting processes. The existing system was fragmented, slow, and lacked real-time capabilities.",
+            solution: "Developed a modern, scalable admin dashboard using Refine framework that integrated multiple data sources, implemented real-time analytics, and automated reporting workflows. The solution included role-based access control, audit logging, and advanced data visualization capabilities.",
+            impact: {
+                metrics: [
+                    "↑ 45% Operational Efficiency",
+                    "↓ 30% Operational Costs",
+                    "99.9% System Uptime",
+                    "↓ 60% Report Generation Time"
+                ],
+                testimonial: "The dashboard transformed our data management process, providing unprecedented visibility into our operations. The real-time analytics and automated reporting have become indispensable tools for our decision-making process.",
+                client: "- Enterprise Client CTO"
+            },
+            technicalDetails: {
+                stack: ["React", "TypeScript", "Refine", "Ant Design", "GraphQL", "PostgreSQL"],
+                architecture: "Microservices architecture with real-time data synchronization using WebSocket connections and GraphQL subscriptions.",
+                challenges: [
+                    "Implemented complex data aggregation across multiple sources",
+                    "Developed custom caching strategies for optimal performance",
+                    "Created a flexible permission system for role-based access",
+                    "Built real-time data visualization components"
+                ]
+            },
+            certifications: ["AWS Certified Solutions Architect", "React Advanced Concepts"]
+        }
+    ];
+
+    return (
+        <div className="projects-container" id="projects">
+            <h1>Case Studies & Solutions</h1>
+            <div className="projects-grid">
+                {caseStudies.map((caseStudy, index) => (
+                    <div className="project" key={index}>
+                        <div className="project-thumbnail" onClick={() => setSelectedCaseStudy(caseStudy)}>
+                            <img src={caseStudy.thumbnail} className="zoom" alt={`${caseStudy.title} thumbnail`} width="100%"/>
+                            <div className="project-overlay">
+                                <div className="metrics">
+                                    {caseStudy.impact.metrics.slice(0, 3).map((metric, idx) => (
+                                        <span key={idx} className="metric">{metric}</span>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                        <h2 onClick={() => setSelectedCaseStudy(caseStudy)}>{caseStudy.title}</h2>
+                        <div className="project-preview">
+                            <p>{caseStudy.challenge.substring(0, 150)}...</p>
+                            <button className="read-more" onClick={() => setSelectedCaseStudy(caseStudy)}>
+                                Read Full Case Study
+                            </button>
+                        </div>
+                    </div>
+                ))}
             </div>
-            <div className="project">
-                <a href="https://econo-chart.vercel.app/" target="_blank" rel="noreferrer"><img src={econochartDemo} className="zoom" alt="EconoChart thumbnail" width="100%"/></a>
-                <a href="https://econo-chart.vercel.app/" target="_blank" rel="noreferrer"><h2>EconoChart Analytics Platform</h2></a>
-                <div className="metrics">
-                    <span className="metric">↑ 60% Insights</span>
-                    <span className="metric">↓ 40% Analysis Time</span>
-                    <span className="metric">95% Accuracy</span>
-                </div>
-                <p>Developed a full-stack analytics platform with machine learning integration for business performance prediction and visualization.</p>
-                <div className="tech-stack">
-                    <span>Python</span>
-                    <span>TensorFlow</span>
-                    <span>React</span>
-                    <span>D3.js</span>
-                </div>
-                <div className="testimonial">
-                    <p>"The predictive analytics capabilities have been game-changing for our business strategy."</p>
-                    <span className="client">- Financial Services Director</span>
-                </div>
-            </div>
-            <div className="project">
-                <a href="https://www.atlassian.com" target="_blank" rel="noreferrer"><img src={atlassianMetrics} className="zoom" alt="Atlassian Metrics Dashboard" width="100%"/></a>
-                <a href="https://www.atlassian.com" target="_blank" rel="noreferrer"><h2>Atlassian Enterprise Metrics Platform</h2></a>
-                <div className="metrics">
-                    <span className="metric">↑ 75% Data Accuracy</span>
-                    <span className="metric">↓ 50% Processing Time</span>
-                    <span className="metric">10M+ Records/Day</span>
-                </div>
-                <p>Led the development of a high-performance metrics aggregation platform that revolutionized how Atlassian processes and analyzes enterprise customer data. Implemented a distributed processing system that handles over 10 million records daily while maintaining sub-second query response times.</p>
-                <div className="tech-stack">
-                    <span>Java</span>
-                    <span>Apache Kafka</span>
-                    <span>Elasticsearch</span>
-                    <span>Kubernetes</span>
-                </div>
-                <div className="testimonial">
-                    <p>"This platform has become the backbone of our enterprise analytics, enabling data-driven decisions at unprecedented scale."</p>
-                    <span className="client">- Atlassian Enterprise Analytics Lead</span>
-                </div>
-            </div>
+            {selectedCaseStudy && (
+                <CaseStudyModal
+                    isOpen={!!selectedCaseStudy}
+                    onClose={() => setSelectedCaseStudy(null)}
+                    caseStudy={selectedCaseStudy}
+                />
+            )}
         </div>
-    </div>
     );
 }
 

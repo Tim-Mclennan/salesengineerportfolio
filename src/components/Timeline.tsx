@@ -22,9 +22,9 @@ function Timeline() {
           >
             <h3 className="vertical-timeline-element-title">Senior Sales Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Atlassian</h4>
-            <p className="bullet-point">Spearheaded technical sales engagements for Atlassian's suite of enterprise collaboration and workflow solutions, consistently exceeding quarterly sales targets by an average of 15%.</p>
-            <p className="bullet-point">Led and delivered over 30 successful proof-of-concept (POC) demonstrations, effectively showcasing the value and capabilities of Atlassian products and accelerating client adoption.</p>
-            <p className="bullet-point">Collaborated with sales teams to understand complex client requirements and architect solutions that address their specific pain points, resulting in a 86% POC-to-close conversion rate for technically supported opportunities.</p>
+            <p className="bullet-point">Lead technical sales engagements for Atlassian's suite of enterprise collaboration and workflow solutions, consistently exceeding quarterly sales targets by an average of 15%.</p>
+            <p className="bullet-point">Delivered over 30 successful proof-of-concept (POC) demonstrations, effectively showcasing the value and capabilities of Atlassian products and accelerating client adoption.</p>
+            <p className="bullet-point">Collaborated with account executives to understand complex client requirements and architect solutions to address their specific pain points - resulting in a 86% POC-to-close conversion rate for technically supported opportunities.</p>
             <p className="bullet-point">Built strong relationships with key technical stakeholders within client organisations, serving as a trusted advisor and technical expert throughout the sales cycle.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
