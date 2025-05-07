@@ -16,16 +16,16 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="Mar 2023 - present"
+            date="May 2023 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Senior Sales Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Atlassian</h4>
-            <p className="bullet-point">Lead technical sales engagements for Atlassian's suite of enterprise collaboration and workflow solutions, consistently exceeding quarterly sales targets by an average of 15%.</p>
-            <p className="bullet-point">Delivered over 30 successful proof-of-concept (POC) demonstrations, effectively showcasing the value and capabilities of Atlassian products and accelerating client adoption.</p>
-            <p className="bullet-point">Collaborated with account executives to understand complex client requirements and architect solutions to address their specific pain points - resulting in a 86% POC-to-close conversion rate for technically supported opportunities.</p>
-            <p className="bullet-point">Built strong relationships with key technical stakeholders within client organisations, serving as a trusted advisor and technical expert throughout the sales cycle.</p>
+            <h3 className="vertical-timeline-element-title">Senior Solutions Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Hubspot</h4>
+            <p className="bullet-point">Designed and implemented go-to-market solutions supporting Sales and Customer Success, including reusable scripts, API connectors, and account provisioning tools.</p>
+            <p className="bullet-point">Built internal tools (With Python & React) used by the GTM team to simulate customer data environments, significantly cutting demo prep time.</p>
+            <p className="bullet-point">Served as a technical SME for Mid-market/enterprise deals involving API integrations, SSO, and webhook event handling; contributed to a 17% improvement in enterprise onboarding speed.</p>
+            <p className="bullet-point">Led internal enablement sessions for new SEs on API integration and account management best practices.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -33,11 +33,12 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Solutions Engineer</h3>
+            <h3 className="vertical-timeline-element-title">Solutions Consultant</h3>
             <h4 className="vertical-timeline-element-subtitle">Zoho CRM</h4>
-            <p className="bullet-point">Architected and oversaw the implementation of custom solutions for over 50 small and medium-sized businesses.</p>
-            <p className="bullet-point">Contributed to a 12% growth in Zoho CRM adoption within assigned territory through proactive engagement in technical discussions and translating complex requirements into actionable plans.</p>
-            <p className="bullet-point">Trained over 20 Account Executives on Zoho's technical capabilities, leading to a more technically proficient sales force and improved customer engagement.</p>
+            <p className="bullet-point">Designed and guided the implementation of customized Zoho CRM solutions for over 50 small and medium-sized businesses, focusing on aligning technology with business needs.</p>
+            <p className="bullet-point">Acted as a liaison between Sales, Product, and Engineering to translate customer learning workflows into technical implementation plans.</p>
+            <p className="bullet-point">Designed custom reference solutions integrating Zoho's API with third-party platforms, helping reduce implementation time by ~25%.</p>
+            <p className="bullet-point">Participated in early-stage beta testing programs for new product capabilities; documented results, reported defects, and provided structured customer feedback.</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -45,11 +46,12 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Software Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Commonwealth Bank</h4>
-            <p className="bullet-point">Designed & developed a custom analytics dashboard for home owners, enabling real-time user behaviour insights that drove a 10% increase in feature adoption.</p>
-            <p className="bullet-point">Contributed to cross-functional project teams, ensuring timely delivery of features that elevated customer satisfaction and engagement.</p>
-            <p className="bullet-point">Wrote clean and maintainable code, following best practices and coding standards for a high-scale web environment.</p>
+            <h3 className="vertical-timeline-element-title">Solutions Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Cin7</h4>
+            <p className="bullet-point">Delivered tailored pre-sales and implementation solutions for mid-market and enterprise clients integrating Cin7 with ERPs, CRMs, and eCommerce systems.</p>
+            <p className="bullet-point">Designed and documented API integration patterns and workflows for over 30 customer projects, including inventory sync, order automation, and user role management.</p>
+            <p className="bullet-point">Created reusable Postman collections and CI-ready Python scripts to validate API workflows and accelerate testing during onboarding.</p>
+            <p className="bullet-point">Acted as a bridge between Product and Sales to capture customer requirements and translate them into reference architectures for technical teams.</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

@@ -36,10 +36,10 @@ function Project() {
             solution: "Led the end-to-end transformation of the e-commerce platform through a series of strategic technical presentations, architecture workshops, and proof-of-concept demonstrations. Developed a compelling technical vision that secured executive buy-in and displaced incumbent solutions. Orchestrated a phased migration strategy that minimized business disruption while delivering immediate value.",
             impact: {
                 metrics: [
-                    "↑ 300% Platform Scalability",
-                    "↓ 70% Time-to-Market",
-                    "↑ 150% Conversion Rate",
-                    "↓ 45% Operational Costs"
+                    "↑ 85% Platform Scalability",
+                    "↓ 35% Time-to-Market",
+                    "↑ 42% Conversion Rate",
+                    "↓ 28% Operational Costs"
                 ],
                 testimonial: "The technical leadership and solution architecture expertise demonstrated throughout this engagement were exceptional. The proof-of-concept workshops and architecture discussions helped us make informed decisions that transformed our digital commerce capabilities. The platform now serves as a competitive differentiator in our market.",
                 client: "- Retail Conglomerate CTO"
@@ -63,10 +63,10 @@ function Project() {
             solution: "Led the development of a distributed metrics platform that revolutionized how the client processes and analyzes their Atlassian tool usage data. Implemented a scalable architecture that handles millions of records daily.",
             impact: {
                 metrics: [
-                    "↑ 75% Data Accuracy",
-                    "↓ 50% Processing Time",
-                    "10M+ Records/Day",
-                    "↓ 40% Infrastructure Costs"
+                    "↑ 45% Data Accuracy",
+                    "↓ 35% Processing Time",
+                    "5M+ Records/Day",
+                    "↓ 25% Infrastructure Costs"
                 ],
                 testimonial: "This platform has become the backbone of our enterprise analytics, enabling data-driven decisions at unprecedented scale. The real-time processing capabilities have transformed how we understand our Atlassian tool usage and team productivity.",
                 client: "- Enterprise Client Analytics Lead"
@@ -90,10 +90,10 @@ function Project() {
             solution: "Built a full-stack analytics platform with machine learning integration for business performance prediction and visualization. Implemented advanced data processing pipelines and real-time visualization capabilities.",
             impact: {
                 metrics: [
-                    "↑ 60% Data Insights Accuracy",
-                    "↓ 40% Analysis Time",
-                    "95% Prediction Accuracy",
-                    "↑ 200% Data Processing Speed"
+                    "↑ 35% Data Insights Accuracy",
+                    "↓ 28% Analysis Time",
+                    "87% Prediction Accuracy",
+                    "↑ 65% Data Processing Speed"
                 ],
                 testimonial: "The predictive analytics capabilities have been game-changing for our business strategy. The platform's ability to process and visualize complex market data in real-time has given us a significant competitive advantage.",
                 client: "- Financial Services Director"
@@ -117,10 +117,10 @@ function Project() {
             solution: "Developed a modern, scalable admin dashboard using Refine framework that integrated multiple data sources, implemented real-time analytics, and automated reporting workflows. The solution included role-based access control, audit logging, and advanced data visualization capabilities.",
             impact: {
                 metrics: [
-                    "↑ 45% Operational Efficiency",
-                    "↓ 30% Operational Costs",
-                    "99.9% System Uptime",
-                    "↓ 60% Report Generation Time"
+                    "↑ 32% Operational Efficiency",
+                    "↓ 22% Operational Costs",
+                    "99.5% System Uptime",
+                    "↓ 45% Report Generation Time"
                 ],
                 testimonial: "The dashboard transformed our data management process, providing unprecedented visibility into our operations. The real-time analytics and automated reporting have become indispensable tools for our decision-making process.",
                 client: "- Enterprise Client CTO"

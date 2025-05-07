@@ -20,7 +20,7 @@ function Main() {
             <a href="mailto:timmymclennan@gmail.com" target="_blank" rel="noreferrer"><EmailIcon/></a>
           </div>
           <h1>Tim McLennan</h1>
-          <p>Sales Engineer</p>
+          <p>Senior Solutions Engineer</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Tim-Mclennan" target="_blank" rel="noreferrer"><GitHubIcon/></a>
