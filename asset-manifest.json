@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/salesengineerportfolio/static/css/main.b71901d9.css",
+    "main.js": "/salesengineerportfolio/static/js/main.5188da41.js",
+    "static/js/453.9415623e.chunk.js": "/salesengineerportfolio/static/js/453.9415623e.chunk.js",
+    "static/media/stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash.jpg": "/salesengineerportfolio/static/media/stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash.b74ea69fa79b553fb8a4.jpg",
+    "static/media/portrait_bluebg_circle.png": "/salesengineerportfolio/static/media/portrait_bluebg_circle.d156893bb7549ab11cb1.png",
+    "static/media/mediamodifier-5u5IQyQdfkM-unsplash.jpg": "/salesengineerportfolio/static/media/mediamodifier-5u5IQyQdfkM-unsplash.034654c30c7b8d8a1377.jpg",
+    "static/media/bg-light.png": "/salesengineerportfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/salesengineerportfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/econochart-demo.png": "/salesengineerportfolio/static/media/econochart-demo.fcae03d7a76bd231e073.png",
+    "static/media/Admindash-demoScreenshot.png": "/salesengineerportfolio/static/media/Admindash-demoScreenshot.c160c599159b741b71dc.png",
+    "index.html": "/salesengineerportfolio/index.html",
+    "main.b71901d9.css.map": "/salesengineerportfolio/static/css/main.b71901d9.css.map",
+    "main.5188da41.js.map": "/salesengineerportfolio/static/js/main.5188da41.js.map",
+    "453.9415623e.chunk.js.map": "/salesengineerportfolio/static/js/453.9415623e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b71901d9.css",
+    "static/js/main.5188da41.js"
+  ]
+}
